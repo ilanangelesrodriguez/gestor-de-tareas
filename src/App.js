@@ -1,14 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import Greeting from './components/pure/greeting';
+import GreetingF from './components/pure/greetingF';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        {/* <p>
           Edit <code>src/App.js</code> and save to reload.
-        </p>
+        </p> */}
+
+        {/* Componente propio Greeting.jsx */}
+        {/* <Greeting name="Ilan" /> */}
+
+        <GreetingF name="Ilan" />
+
         <a
           className="App-link"
           href="https://reactjs.org"
